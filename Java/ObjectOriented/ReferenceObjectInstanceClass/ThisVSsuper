@@ -1,0 +1,24 @@
+
+Super is used ti call parents class members (variables and methods)
+
+This is used to call the current class methods and variables.
+
+This. used with constructors and setters. Ude this keyword in constructor and setter.
+
+Super. commonly used with method overriding (@Override).
+
+this() vs super()
+
+this() - is used to call a constructor withing another constructor. As we have previously done with overloaded
+constructors in the same class.
+
+The call to THIS() can only be used in a constructor, AND MUST be the first statement in the constructor. It's used
+with constructor chaining, in other words when one constructor calls another constructor and helps to reduce
+duplicated code.
+
+Only way to call a parent constructor is through SUPER().
+
+call to SUPER() must be first statement in each constructor.
+
+CONSTRUCTOR CAN HAVE THIS() OR SUPER() BUT NEVER BOTH.
+

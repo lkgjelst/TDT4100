@@ -1,0 +1,26 @@
+
+Static methods are declared using Static modifier
+
+    Used for operations that dont require any data from an instance of the class (FROM THIS)
+
+    This keyword is current instance of class
+
+    1. In static we CAN'T USE THIS
+
+Should method be static
+
+    1. Does it use any fields (instance variables) or instance methods (this.)
+        2. Yes -> SHOULD BE INSTANCE METHOD
+        2. No -> SHOULD BE STATIC METHOD
+
+
+
+STATIC AND INSTANCE VARIABLES
+
+ - Static variables known as static member variables
+
+Not used often - used when reading user input
+- Scanner declared as a static method
+- Then all static methods can access scanner directly
+
+

@@ -1,0 +1,27 @@
+
+Overload - reuse same method name
+
+Overloading happens inside single class, but can apply to subclass.
+
+METHODS ARE OVERLOADED IF FOLLOWING
+    1. Methods have same name
+    2. Methods have different variables / parameters
+
+If methods follow those rules they may have different return types, access modifiers or throw different
+checked or unchecked exceptions
+
+OVERRIDING
+
+Method in child class that already exist in parent
+
+By extending the parent class the child class gets all the methods (public) in the parent class,
+thus Overriding means we override the method already defined in the parent class
+
+CONSIDERED OVERRIDING IF FOLLOWING:
+    1. Must have same name and arguments
+    2. Return type can be subclass of return type in parent class
+    3. Cant have lower access modifier
+    If parent method is protected then using private in child is not allowed but using public
+    would be allowed
+
+Only inheritent methods can be overridden

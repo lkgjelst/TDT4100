@@ -1,0 +1,24 @@
+
+The analogy of building a house to classes.
+
+A class is basically a blueprint for building a house. We can build as many houses (objects) as we want with the
+blueprints.
+
+Each house you build (in other words instantiate using 'new' operator) is an OBJECT also known as an INSTANCE
+
+Each house you build has its own address (location). Give someone address - this is known as a reference.
+
+Reference can be copied many times - but same house.
+
+
+
+House blueHouse = new House("blue");
+
+object of type House created, with color blue.
+
+House anotherHouse = blueHouse;
+
+This is pointing to the same house, however two different references to the same house.
+
+No way to access an object directly - all is done through the reference to the object.
+
